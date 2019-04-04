@@ -1,0 +1,11 @@
+<div class ="top-menu">
+<img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/375px-Angular_full_color_logo.svg.png">
+</div>
+<div class= "courses">
+  <!--
+<app-courses [course]="rxJs"></app-courses>
+<app-courses [course]="angularCourse"></app-courses>
+-->
+<!-- using ngFor -->
+<app-courses *ngFor="let course of courses" [course]="course"></app-courses>
+</div>

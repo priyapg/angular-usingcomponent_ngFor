@@ -1,0 +1,23 @@
+
+div.course-card{
+  background-color: #BADA55;
+  padding:20px
+}
+
+div.course-title{
+  text-align: center;
+  font-size: 20px;
+  font-style: italic;
+  padding: 10px
+}
+img.course-card-img{
+ width: 40%;
+ display: block;
+ margin-left: auto;
+ margin-right:auto
+}
+div.course-desc{
+  font-family:cursive;
+  text-align: center;
+  padding-bottom: 20px
+}
